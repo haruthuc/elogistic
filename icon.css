@@ -1,0 +1,286 @@
+
+body{
+	font-size: 14px;
+	
+}
+.storage-input{
+	 background-image: url(images/input.png);
+	
+}
+.storage-output{
+	 background-image: url(images/output.png);
+	
+}
+
+.storage-caution{
+	 background-image: url(images/caution.png);
+	
+}
+.storage-exp{
+	 background-image: url(images/icon_storage.png);
+	
+}
+.icon-customer{
+	
+	 background-image: url(images/customer.png);
+}
+.icon-customer-small{
+	
+	background-image: url(images/customer-small.png);
+}
+.supplier-small{
+	background-image: url(images/supplier-small.png);
+	
+}
+.unit-small{
+	background-image: url(images/unit_small.png);
+	
+}
+.product-small{
+	background-image: url(images/product_small.png);
+	
+}
+.stock-small{
+	background-image: url(images/stock_small.png);
+	
+}
+.channel-small{
+	background-image: url(images/channel_small.png);
+	
+}
+.city-small{
+	background-image: url(images/city_small.png);
+	
+}
+.district-small{
+	background-image: url(images/district_small.png);
+	
+}
+.product-small2{
+	background-image: url(images/product_small2.png);
+	
+}
+.barcode_small{
+	background-image: url(images/barcode-small.png);
+	
+}
+
+
+.icon-supplier{
+	
+	 background-image: url(images/supplier.png);
+}
+
+.icon-sale{
+	
+	 background-image: url(images/sale.png);
+}
+.icon-debt{
+	
+	 background-image: url(images/debt.png);
+}
+
+.icon-profit{
+	
+	 background-image: url(images/profit.png);
+}
+.icon-coupon{
+	
+	 background-image: url(images/coupon.png);
+}
+.icon-bonus{
+	 background-image: url(images/bonus.png);
+	
+}
+
+.icon-barcode{
+	 background-image: url(images/barcode.png);
+	
+}
+.icon-barcodeman{
+	 background-image: url(images/barcodeman.png);
+	
+}
+
+.icon-user{
+	 background-image: url(images/user.png);
+	
+}
+
+.icon-report{
+	 background-image: url(images/report.png);
+	
+}
+.icon-category{
+	 background-image: url(images/category.png);
+}
+.icon-tunel{
+	 background-image: url(images/tunel.png);
+}
+.icon-province{
+	 background-image: url(images/province.png);
+}
+.icon-report{
+	 background-image: url(images/report.png);
+}
+.icon-backup{
+	 background-image: url(images/backup.png);
+}
+.icon-shutdown{
+	 background-image: url(images/shutdow.png);
+}
+.icon-add{
+	
+	 background-image: url(images/add.png);
+}
+.icon-remove{
+	background-image: url(images/remove.png);
+	
+}
+.icon-refresh{
+	background-image: url(images/refresh.png);
+	
+}
+.icon-uplot{
+	background-image: url(images/pluslot.png);
+	
+}
+.icon-newlot{
+	background-image: url(images/lotnew.png);
+	
+}
+
+.icon-editlot{
+	background-image: url(images/lotset.png);
+	
+}
+.icon-downlot{
+	background-image: url(images/downlot.png);
+	
+}
+.icon-pass{
+	background-image: url(images/pass.gif);
+	
+}
+
+.icon-employee-small{
+	background-image: url(images/employee-small.png);
+	
+}
+
+.icon-staff-small{
+	background-image: url(images/staff-small.png);
+	
+}
+.icon-search{
+	
+	background-image: url(images/search-icon.png);
+}
+.icon-goods{
+	background-image: url(images/goods.png);
+	width: 16px;
+	height: 16px;
+}
+.icon-cross{
+	background-image:url(images/cross_24.png);
+	width: 16px;
+	height: 16px;
+	
+}
+ .x-grid-row-summary .x-grid-cell-inner {
+            font-weight: bold;
+            font-size: 11px;
+            
+        }
+
+
+        
+ .barcodeText{
+	font-weight: bold;
+    color: blue;
+    margin-top: 15px;
+    margin-left: 20px;
+   	vertical-align: middle;
+    float: left;
+  
+ 	
+ }
+.totalText{
+	font-weight: bolder;
+    color: red;
+    margin-top: 15px;
+    margin-left: 20px;
+   	vertical-align: middle;
+    float: left;
+  
+ 	
+ }
+ .totalText .x-form-display-field{
+	font-weight: bold;
+ 	color: red;
+ 	font-size:15px;
+	display: inline;
+ 	
+ }
+.iconText{
+	font-weight: bolder;
+    color: black;
+    margin-top: 15px;
+    margin-left: 20px;
+ 	font-size:12px;
+   	vertical-align: middle;
+ 	
+  
+ 	
+ }
+ .iconText .x-form-display-field{
+	font-weight: bold;
+ 	color: red;
+ 	font-size:12px;
+	display: block;
+ 	width: 180px;
+	border-bottom: dotted 1px #CCCCCC; 
+ 	
+ }
+ 
+ .barcodeText input{
+ 	font-weight: bold;
+ 	text-align: center;
+ 	font-size: 14px;
+ }
+ .nameText {
+	font-weight: bold;
+    color: blue;
+    margin-left: 20px;
+ 	margin-top: 5px;
+
+ 	
+ }
+  .nameText input{
+  	font-weight: bold;
+    text-align: center;
+  	
+}
+ .numberToText{
+	font-size: 12px;
+ 	color:blue;
+ 	display: inline;
+ 	
+ }
+ 
+ .x-grid-checkheader {
+    height: 14px;
+    background-image: url('images/unchecked.gif');
+    background-position: 50% -2px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.x-grid-checkheader-checked {
+    background-image: url('images/checked.gif');
+}
+
+.x-grid-checkheader-editor .x-form-cb-wrap {
+    text-align: center;
+}
+ 

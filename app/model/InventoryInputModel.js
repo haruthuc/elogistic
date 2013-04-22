@@ -1,0 +1,19 @@
+Ext.define('InvApp.model.InventoryInputModel',{
+		extend:'Ext.data.Model',
+		fields:[
+		        {name:'id',type:'int'},
+		        {name:'Product_Code',type:'string'},
+		        {name:'Date_Input',type:'string'},
+		        {name:'Product_Name',type:'string'},
+		        {name:'InventoryQuantity',type:'int'},
+		        {name:'Orginal_Price',type:'float'},
+		        {name:'Sell_Price',type:'float'},
+		        {name:'Date_Expire',type:'date'},
+		        {name:'Date_LastUpdate',type:'date'},
+		        {name:'Product_Supplier_ID',type:'string'},
+		        {name:'Stock_ID',type:'string'},
+		        {name:'Quantity_Plus',type:'int'},
+		        {name:'Quantity_Reduce',type:'int'}
+		        
+		        ]
+	});

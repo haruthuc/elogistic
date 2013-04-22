@@ -1,0 +1,16 @@
+Ext.define('InvApp.model.TransactionLocalModel',{
+		extend:'Ext.data.Model',
+		fields:[
+		        {name:'id',type:'int'},
+		        {name:'Product_Code',type:'string'},
+		        {name:'Product_Name',type:'string'},
+		        {name:'Unit_Code',type:'string'},
+		        {name:'Product_Quantity',type:'int'},
+		        {name:'Product_Current_Price',type:'string'},
+		        {name:'Product_Total_Price',type:'float'},
+		        {name:'Transaction_Product_Type',type:'string'},
+		        {name:'Product_Supplier_ID',type:'string'},
+		        {name:'Product_Quantity_Caution',type:'int'},
+		        {name:'Product_Promotion_Quantity',type:'int'}
+		        ]
+	});

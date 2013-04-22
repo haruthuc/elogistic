@@ -1,0 +1,20 @@
+Ext.define('InvApp.model.CustomerModel',{
+		extend:'Ext.data.Model',
+		fields:[
+		        {name:'id',type:'int'},
+		        {name:'Cust_ID',type:'string'},
+		        {name:'Cust_CompanyName',type:'string'},
+		        {name:'Cust_PersonName',type:'string'},
+		        {name:'Cust_Address',type:'string'},
+		        {name:'Cust_Phone1',type:'string'},
+		        {name:'Cust_Phone2',type:'string'},
+		        {name:'Cust_TaxCode',type:'string'},
+		        {name:'Cust_Website',type:'string'},
+		        {name:'Cust_Email',type:'string'},
+		        {name:'Cust_Fax',type:'string'},
+		        {name:'Cust_Route_ID',type:'string'},
+		        {name:'Cust_District_ID',type:'string'},
+		        {name:'Cust_Type',type:'string'},
+		        {name:'Cust_Note',type:'string'}	        
+		        ]
+	});

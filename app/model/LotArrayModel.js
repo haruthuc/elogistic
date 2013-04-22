@@ -1,0 +1,17 @@
+Ext.define('InvApp.model.LotArrayModel',{
+		extend:'Ext.data.Model',
+		fields:[
+		        {name:'id',type:'int'},
+		        {name:'lotID',type:'int'},
+		        {name:'Stock_ID',type:'string'},
+		        {name:'Product_Code',type:'string'},
+		        {name:'Product_Name',type:'string'},
+		        {name:'Sell_Price',type:'float'},
+		        {name:'Orginal_Price',type:'Orginal_Price'},
+		        {name:'Date_Expire',type:'date'},
+		        {name:'Date_LastUpdate',type:'date'},
+		        {name:'InventoryQuantity',type:'int'},
+		        {name:'Quantity_Order',type:'int'},
+		        {name:'Promotion',type:'bool'}
+		        ]
+	});
